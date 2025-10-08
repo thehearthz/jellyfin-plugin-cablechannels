@@ -1,0 +1,21 @@
+---
+name: "Jellyfin.Plugin.CableChannels"
+guid: "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+version: "1.0.0.0"
+targetAbi: "10.8.0.0"
+framework: "net6.0"
+owner: "thehearthz"
+overview: "Create cable-like channels with commercials, pre-rolls, TV shows and movies"
+description: "Transform your Jellyfin server into a cable TV experience with continuous channels, scheduled programming, commercial breaks, and pre-roll content."
+category: "General"
+artifacts:
+  - "Jellyfin.Plugin.CableChannels.dll"
+changelog: |
+  ## 1.0.0
+  - Initial release
+  - Support for multiple channels
+  - Commercial break insertion
+  - Pre-roll support
+  - Shuffle, Sequential, and Scheduled playback modes
+  - URL-based channel access
+  - REST API endpoints
